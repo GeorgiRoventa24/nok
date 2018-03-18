@@ -39,7 +39,7 @@ class Megane :public Masina
     ~Megane();
 	 void afisare()
 	{
-		   Megane::afisare();
+		   Masina::afisare();
 		   cout << "Has automatic doors: " << this->hasAutomaticDoors<<endl;
 	}
 	  void anul_fabricatiei(int an) 
