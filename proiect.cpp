@@ -72,21 +72,7 @@ shared_ptr<const Notifier<T,U,Z>> ncPtr_;
 
 
 int main(){
-    struct SM c1, c2;
-    c1.ipRangeStart="0";
-    c1.ipRangeStop="20";
-    c1.clients=2;
-    c2.ipRangeStart="20";
-    c2.ipRangeStop="40";
-    c2.clients=4;
-    c3.ipRangeStart="40";
-    c3.ipRangeStop="80";
-    c3.clients=8;
-    StateMachine<int> statemachine;
-    statemachine.addInContainer(c1);
-    statemachine.addInContainer(c2);
-	statemachine.addInContainer(c3);
-    statemachine.printContainer();
+   
     
     return 0;
 }
